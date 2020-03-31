@@ -11,4 +11,7 @@ public class TreeNode {
     private int TreeNode left;
     private int TreeNode right;
 
+    public TreeNode(int data) {
+
+    }
 }
