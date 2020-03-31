@@ -25,4 +25,8 @@ public class Student {
         this.rollNo = rollNo;
     }
 
+
+    public String toString() {
+        return getName()+" "+getRollNo();
+    }
 }
