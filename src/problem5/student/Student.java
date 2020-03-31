@@ -12,4 +12,10 @@ public class Student {
     private int appearingCount;
 
 
+    public Student(String name,int backLog,int appearingCount){
+        this.appearingCount=appearingCount;
+        this.backLog=backLog;
+        this.name = name;
+    }
+
 }
