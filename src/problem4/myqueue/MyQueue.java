@@ -22,4 +22,9 @@ public class MyQueue {
         linkedList.addLast(data);
     }
 
+    public void dequeue(){
+        linkedList.deleteFirst();
+    }
+
+
 }
