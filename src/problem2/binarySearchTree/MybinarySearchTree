@@ -1,0 +1,10 @@
+package problem2.main.binarySearchTree;
+
+import problem1.node.TreeNode;
+import problem4.myqueue.MyQueue;
+
+public class MyBinarySearchTree {
+    private TreeNode root;
+    private int countRight;
+    private MyQueue preQueue;
+    private MyQueue postQueue;
