@@ -18,4 +18,8 @@ public class MyQueue {
         return linkedList.search(data).getData();
     }
 
+    public void enqueue(int data){
+        linkedList.addLast(data);
+    }
+
 }
