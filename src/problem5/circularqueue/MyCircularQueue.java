@@ -5,6 +5,14 @@
  *  Time: 7:06 PM
  */
 package problem5.circularqueue;
-//to implement circular queue
+
+import problem5.student.Student;
+
 public class MyCircularQueue {
+    private int size;
+    private int front;
+    private int rear;
+    private int maxSize;
+    private Student[] circularQueue;
+
 }
