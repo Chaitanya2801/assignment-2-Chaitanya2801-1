@@ -6,7 +6,12 @@
  */
 package problem2.main;
 
-// executable class
-// use problem1.mybst.MyBinarySearchTree class for creating binary tree
+import problem2.main.binarySearchTree.MyBinarySearchTree;
+import problem4.myqueue.MyQueue;
+
 public class MyMain {
+    public static void main(String[] args) {
+        MyQueue preQueue = new MyQueue();
+        MyQueue postQueue= new MyQueue();
+    }
 }
