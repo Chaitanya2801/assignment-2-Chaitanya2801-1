@@ -7,6 +7,7 @@
 package problem1.mybst;
 
 import problem1.node.TreeNode;
+
 // to implement BinarySearchTree
 public class MyBinarySearchTree {
     static Queue<TreeNode> q;
@@ -46,6 +47,20 @@ public class MyBinarySearchTree {
         System.out.print(node.getData() + " ");
 
         printInorder(node.getRight());
+
+    }
+
+    void printPreorder(TreeNode node) {
+
+        if (node == null)
+
+            return;
+
+        System.out.print(node.getData() + " ");
+
+        printPreorder(node.getLeft());
+
+        printPreorder(node.getRight());
 
     }
 
