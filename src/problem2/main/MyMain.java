@@ -13,5 +13,6 @@ public class MyMain {
     public static void main(String[] args) {
         MyQueue preQueue = new MyQueue();
         MyQueue postQueue= new MyQueue();
+        MyBinarySearchTree myBinarySearchTree = new MyBinarySearchTree(preQueue,postQueue);
     }
 }
