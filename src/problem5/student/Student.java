@@ -18,4 +18,31 @@ public class Student {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getBackLog() {
+        return backLog;
+    }
+
+    public void setBackLog(int backLog) {
+        this.backLog = backLog;
+    }
+
+    public int getAppearingCount() {
+        return appearingCount;
+    }
+
+    public void setAppearingCount(int appearingCount) {
+        this.appearingCount = appearingCount;
+    }
+
+    public String toString(){
+        return getName()+" "+getBackLog()+" "+getAppearingCount();
+    }
 }
