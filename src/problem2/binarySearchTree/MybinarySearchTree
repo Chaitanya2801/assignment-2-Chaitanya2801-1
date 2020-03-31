@@ -35,6 +35,7 @@ public class MyBinarySearchTree {
                 parent.setRight(node);
             }
         }
+    }
 
         public MyQueue getPreQueue() {
             return preQueue;
@@ -59,5 +60,17 @@ public class MyBinarySearchTree {
         public void setRoot(TreeNode root) {
             this.root = root;
         }
+
+    public void preOrder(TreeNode temp){
+        if(temp==null){
+            return;
+        }
+        else{
+            preQueue.enqueue(temp.getData());
+            preOrder(temp.getLeft());
+            preOrder(temp.getRight());
+        }
     }
+
+
 }
