@@ -47,4 +47,12 @@ public class MyCircularQueue {
             return response;
         }
     }
+
+    public void show(){
+        for (int i=0;i<size;i++){
+            System.out.println(circularQueue[(i+front)%maxSize]);
+        }
+    }
+
+
 }
