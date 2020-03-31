@@ -21,5 +21,20 @@ public class MyBinarySearchTree {
         return root;
     }
 
+    void printPostorder(TreeNode node) {
+
+        if (node == null)
+
+            return;
+
+        printPostorder(node.getLeft());
+
+        printPostorder(node.getRight());
+
+        System.out.print(node.getData() + " ");
+
+    }
+
+
 }
 
