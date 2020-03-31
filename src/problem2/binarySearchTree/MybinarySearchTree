@@ -8,3 +8,8 @@ public class MyBinarySearchTree {
     private int countRight;
     private MyQueue preQueue;
     private MyQueue postQueue;
+
+    public MyBinarySearchTree(MyQueue preQueue,MyQueue postQueue){
+        this.preQueue=preQueue;
+        this.postQueue=postQueue;
+    }
